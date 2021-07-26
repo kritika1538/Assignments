@@ -1,0 +1,31 @@
+
+
+ *{
+    box-sizing: border-box;
+    background-color:floralwhite;
+  }
+  
+  dd{
+    font: bold 20px Arial;
+    margin: 30px;
+    padding: 0 0 0 12px;
+  }
+
+dt{
+    background-color:azure;
+    font: bold 25px Arial;
+    border:2px solid black;
+    position:sticky;
+    top:5px;
+    padding:5px;
+}
+
+dt:hover{
+  background-color:bisque;
+}
+
+dd::before{
+  content:"📞";
+  padding:5px;
+  margin:10px;
+}

@@ -1,0 +1,32 @@
+*{
+    background-color: black;
+}
+
+div{
+   align-items: center;
+}
+
+button{
+    position: relative;
+    top:300px;
+    left:40%;
+    background-color: black;
+    font-weight: bold;
+    font-size: medium;
+    border:2px solid coral;
+    color: coral;
+    height:8vh;
+    width:17vw;
+}
+
+button:hover{
+    border:2px solid limegreen;
+    color:white;
+    box-shadow: 1px 5px 5px limegreen;
+}
+
+@media screen and (max-width:800px){
+    button{
+        width:25vw;
+    }
+}

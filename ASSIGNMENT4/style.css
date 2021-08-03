@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color: #343a40;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+h1{
+    color:aliceblue;
+    margin-left:20px;
+    font-size: 50px;
+    color:floralwhite;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 20px;
+    background-color: #343a40;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+li{
+   padding:20px 5px;
+    margin-right:20px;
+}
+
+a:hover{
+    background-color:darkgray;
+    border-radius: 2px;
+}
+@media screen and (max-width:800px){
+    nav,ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+}
+div{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-image:url(https://images.theconversation.com/files/371985/original/file-20201130-13-xieqc.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C5129%2C2560&q=45&auto=format&w=668&h=324&fit=crop);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:70px 70px;
+    border-radius: 10px;
+    animation-fill-mode: forwards;
+    animation:slide 10s infinite;
+    box-shadow: 2px 2px 5px 2px gray;
+}
+
+@keyframes slide{
+    25%{
+        
+        background-image:url(https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/1144163-987539-The-Top-7-Altra-Running-Shoes-of-2021-1296x728-headerc0dcdf-1296x727.jpg?w=1155&h=1528);
+        background-repeat: no-repeat; 
+    }
+
+    50%{
+        background-image:url(https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1592920567-mid-century-double-pop-up-coffee-table-walnut-white-marble-2-c.jpg);
+        background-repeat: no-repeat;
+    }
+
+    75%{
+        
+        background-image:url(https://www.hazoorilaljewellers.com/wp-content/uploads/2020/03/2020-03-04-1.jpg);
+        background-repeat: no-repeat;
+    }
+
+    100%{
+        background-image:url(https://images.theconversation.com/files/371985/original/file-20201130-13-xieqc.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C5129%2C2560&q=45&auto=format&w=668&h=324&fit=crop);
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width:700px){
+   div{
+        display: flex;
+        justify-content: center;
+        background-position: center;
+        margin:30px 20px;
+    }
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:30px 20px;
+    padding:5px;
+}
+
+figure{
+    width:375px;
+    height:60vh;
+    border:1px solid greenyellow;
+    text-align: center;
+    margin:20px 10px;
+    box-shadow:3px 3px 5px 2px greenyellow;
+    border-radius: 5px;
+    
+}
+
+figure:hover{
+    box-shadow:3px 3px 5px 2px aquamarine;
+    border:2px solid aquamarine;
+}
+
+figure img{
+    height: 40vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+figcaption{
+    color:black;
+
+}
+
+figcaption button{
+    padding: 10px 10px;
+    margin:10px;
+    font-size: 16px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    background-color:dimgray;
+    color:white;
+    box-shadow: 1px 1px 3px 2px #ccc;
+}
+
+figcaption button:hover{
+    background-color: lightslategray;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    figure{
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+        align-items:center;
+        margin:20px 10px;
+     }
+ }
+
+ footer{
+    background-color: black;
+    width: 100%;
+    height:20vh;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+ }
+footer h1{
+    align-self: baseline;
+}
+ footer h2{
+     align-self:flex-end;
+ }

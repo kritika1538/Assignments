@@ -21,7 +21,7 @@ btn.addEventListener("click",(e) =>{
 });
 
 function weatherReport(inpVal){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inpVal}&appid=7fdcc4cf3282284223d81880412757b4`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inpVal}&appid=7fdcc4cf3282284223d81880412757b4`)
     
     .then((res)=>{
         return res.json()

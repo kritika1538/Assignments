@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    width:100%;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url("https://images.unsplash.com/photo-1562806568-a3450b810449?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center; 
+}
+
+p{
+    margin: 5px;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+}
+
+#container{
+    background:rgb(256,256,256,.6);
+    width:400px;
+    margin:50px auto;
+    text-align:center;
+    border-radius:20px;
+}
+
+#w_info{
+    margin:10px auto;
+}
+
+input{
+    border:1px solid lightgray;
+    margin:0px auto;
+    margin-top:20px;
+    width:80%;
+    height:30px;
+    color:white;
+    text-align:center;
+    font-size:30px;
+    padding:10px;
+    background-color:rgb(7, 7, 7);
+    border-radius:10px;
+}
+
+input:focus{
+    outline:none;
+}
+button{
+    background-color:lightgray;
+    color:black;
+    border:2px solid gray;
+    margin:5px;
+    width:85%;
+    text-align:center;
+    font-size:30px;
+    padding:5px;
+    border-radius:10px;
+    box-shadow: 2px 2px 3px gray;
+}
+
+button:active{
+    transform:scale(0.7);
+}
+
+#app_temp{
+    font-size:50px;
+    font-weight:bold;
+}
+
+#inp_text{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#tempVal{
+    font-size:25px;
+}
+
+#w_type{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#w_date{
+    font-size:25px;
+    font-weight: bold;
+}
+
